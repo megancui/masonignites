@@ -22,7 +22,7 @@ export class NavBar extends React.Component {
   render() {
     return (
       <div className="NavBar-overall">
-        {/*<div className="NavBar-blocks" onClick={this.goToAdd}>
+        <div className="NavBar-blocks" onClick={this.goToAdd}>
           Home
         </div>
         <div className="NavBar-blocks" onClick={this.goToAdd}>
@@ -36,7 +36,7 @@ export class NavBar extends React.Component {
           onClick={this.goToAdd}
         >
           Add an Idea
-        </div>*/}
+        </div>
       </div>
     );
   }
